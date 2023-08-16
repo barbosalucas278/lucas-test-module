@@ -31,5 +31,5 @@ jobs:
         npm install
         npm run release
       env: 
-        NPM_TOKEN: ${{secret.NPMJS_ACCESS_TOKEN}}
+        NPM_TOKEN: ${{secrets.NPMJS_ACCESS_TOKEN}}
     - run: npm publish
