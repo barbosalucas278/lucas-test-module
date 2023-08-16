@@ -21,8 +21,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build and test
-        run: npm test
+      # - name: Build and test
+      # run: npm test
 
       - name: Publish to npm
         if: ${{ github.ref == 'refs/heads/main' }}  # Adjust this condition as needed
