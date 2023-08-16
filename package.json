@@ -1,0 +1,19 @@
+{
+  "name": "lucas-test-module",
+  "version": "0.0.1",
+  "description": "Libreria creada para aprender a subir un modulo a la nube de npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barbosalucas278/lucas-test-module.git"
+  },
+  "author": "Lucas Barbosa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barbosalucas278/lucas-test-module/issues"
+  },
+  "homepage": "https://github.com/barbosalucas278/lucas-test-module#readme"
+}
